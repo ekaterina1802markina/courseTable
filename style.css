@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1770px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 27px;
+}
+
+.header_logo{
+    width: 190px;
+    height: 41px;
+}
+
+.button_menu{
+    width: 151px;
+    height: 54px;
+    background: rgba(54, 112, 199, 1);
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    width: 757px;
+    height: 54px;
+    background-color: rgba(239, 239, 239, 1);
+    display: flex;
+    border-radius: 30px;
+}
+
+.search_text{
+    margin-left: 40px;
+    margin-top: 15px;
+    color: rgba(143, 143, 143, 1);
+}
+
+.search_btn{
+    background-color: rgba(54, 112, 199, 1);
+    margin-left: 560px;
+    width: 101px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_lupa{
+    margin-left: 33px;
+    margin-top: 9px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main{
+    margin-top: 90px;
+    
+}
+
+.main_text{
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    margin-left: 112px;
+    margin-top: 125px;
+}
+
+.timer{
+    position: absolute;
+    left: 649px;
+    top: 514px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer_clock{
+    display:flex;
+    gap: 30px;
+}
+
+.number{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.timer_text{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.num{
+    font-size: 60px;
+    
+}
+
+.name{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.promo{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bookSale{
+    display: flex;
+    gap: 60px;
+}
+.book_text{
+    position: absolute;
+}
+
+.bold{
+    font-size: 40px;
+}
+
+.book_text{
+    position: absolute;
+    margin-top: 97px;
+    margin-left: 20px;
+    font-size: 30px;
+    width: 190px;
+    color: #ffffff;
+}
+
+.info{
+    position: absolute;
+}
+
+.sale_text{
+    position: absolute;
+    top: 78px;
+    left: 14px;
+    width: 206px;
+    font-size: 30px;
+    font-style: bold;
+    color: #ffffff;
+}
+
+.ellipse{
+    background-color: rgba(255, 189, 19, 1);
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    position: absolute;
+    top: 137px;
+    left: 137px;
+}
+
+.ellipse_text{
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    position: absolute;
+    top: 24px;
+    left: 9px;
+}
+
+.shoes{
+    position: absolute;
+    margin-top: 300px;
+}
+
+.ellipse_shoes{
+    background-color: rgba(255, 189, 19, 1);
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.twoshoes{
+    margin-left: 60px;
+}
+
+.block_twoshoes{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 20px;
+    background-color: rgba(56, 192, 235, 1);
+    width: 510px;
+    height: 178px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.twoshoes_text{
+    width: 428px;
+    margin-left: 23px;
+    margin-top: 26px;
+}
+
+.bold_two{
+    font-weight: bold;
+    font-size: 56px;
+}
+
+.newyear{
+    margin-left: 60px;
+}
+ 
+.newyear_text{
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    width: 340px;
+    margin-left: 30px;
+    margin-top: 104px;
+}
+
+.benefit{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.benefit_text{
+    position: absolute;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 160px;
+    margin-left: 30px;
+}
+
+.ellipse_benefit{
+    background-color: rgba(255, 189, 19, 1);
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 137px;
+    margin-left: 442px;
+}
+
+.ellipse_benefitTwo{
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    position: absolute;
+    top: 24px;
+    left: 9px;
+}
+
+.decoration{
+    margin-top: 60px;
+}
+
+.decoration_block{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 643px;
+    height: 115px;
+    border-radius: 20px;
+    margin-top: 385px;
+    margin-left: 50px;
+}
+
+.decoration_text{
+    color: rgba(249, 17, 85, 1);
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 32px;
+    text-transform: uppercase;
+}
+
+.girl{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.ellipse_girl{
+    position: absolute;
+    background-color: rgba(255, 189, 19, 1);
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    margin-top: 442px;
+    margin-left: 137px;
+}
+
+.ellipse_gerltext{
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    position: absolute;
+    top: 24px;
+    left: 9px;
+}
+
+.chemistrytoy{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.chemistry_text{
+    position: absolute;
+    color: #ffffff;
+    font-size: 30px;
+    width: 190px;
+    font-weight: bold;
+    margin-top: 165px;
+    margin-left: 20px;
+}
+
+.ellipse_chemistry{
+    position: absolute;
+    background-color: rgba(255, 189, 19, 1);
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ellipse_chemistrytext{
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    position: absolute;
+    top: 24px;
+    left: 9px;
+}
+
+.toy{
+    margin-top: 60px;
+}
+
+.products{
+    margin-top: 100px;
+}
+
+.products_big{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.first{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.ellipse_card{
+    position: absolute;
+    background-color: rgba(255, 189, 19, 1);
+    width: 88px;
+    height: 88px;
+    border-radius: 100%;
+    margin-top: 187px;
+    margin-left: 20px;
+}
+
+.ellipse_cardtext{
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    position: absolute;
+    top: 24px;
+    left: 9px;
+}
+
+.money{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.original{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nosale{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.namecard{
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.two{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer{
+    margin-top: 140px;
+    background-color: #2D2D2D;
+	width: 100%;
+	height: 571px;
+    display: flex;
+}
+
+.footer_logo{
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.footer_data{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 316px;
+    margin-left: 75px;
+}
+
+
+.catalog_lists{
+    display: flex;
+}
+
+.lists{
+    display: flex;
+}
+
+.links{
+    margin-top: 70px;
+    margin-left: 118px;
+    display: flex;
+}
+
+.catalog_name{
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.one{
+    margin-top: 40px;
+}
+
+.link{
+    margin-top: 15px;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.lists_two{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
